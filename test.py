@@ -1,1 +1,7 @@
-print("Hello World")
+def get_choices():
+    player_choice = "rock"
+    computer_choice = "paper"
+
+    return computer_choice
+
+print ("hello world nice")
