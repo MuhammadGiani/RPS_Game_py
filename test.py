@@ -32,10 +32,16 @@ def check_win(player, computer):
         else:
             return "Rock smashes scissors! Computer Wins."
    
-choices = get_choices()
+while True:
+    choices = get_choices()
 
-result = check_win(choices["player"], choices["computer"])
-print(result)
+    result = check_win(choices["player"], choices["computer"])
+    print(result)
+
+    playAgain = input("\nPlay Again? (Enter e to exit)")
+
+    if playAgain=='e':
+        break
 
 # alpha = {"name":"ahmed", "age":"13"}
 # name = alpha["age"]
