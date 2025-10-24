@@ -1,7 +1,17 @@
+import random
+
 def get_choices():
-    player_choice = "rock"
-    computer_choice = "paper"
+    player_choice = input("Enter a choice (rock, paper, scissors) : ")
+    options = ["rock", "paper", "scissors"]
+    computer_choice = random.choice(options)
+    choices = {"player":player_choice, "computer":computer_choice}
+    return choices
 
-    return computer_choice
+def check_win(player, computer):
+    print(f"You chose {player}, computer chose {computer}")
+    if player==computer:
+        return "It's a tie"
 
-print ("hello world nice")
+check_win("rock","scissor")
+
+print()
