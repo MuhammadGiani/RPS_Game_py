@@ -34,10 +34,17 @@ income = str(256.78)
 #print("\"Muhammad giani\" is my name  ")
 
 #indexing a string
-print(name[-4])
+#print(name[-4])
 
 #using range
-print(name[1:5])
+# print(name[-4:-1])
+
+#any, all statements
+check = any([True,False])
+print(check)
+
+check2 = all([True,False])
+print(check2)
 
 # python data types
 complex
