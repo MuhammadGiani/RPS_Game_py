@@ -31,7 +31,13 @@ income = str(256.78)
 # thank you
 # """)
 
-print("\"Muhammad giani\" is my name  ")
+#print("\"Muhammad giani\" is my name  ")
+
+#indexing a string
+print(name[-4])
+
+#using range
+print(name[1:5])
 
 # python data types
 complex
