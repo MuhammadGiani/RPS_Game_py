@@ -55,15 +55,21 @@ income = str(256.78)
 
 # print(num2.real,num2.imag)
 
-#Enums
+# #Enums
 
-from enum import Enum
+# from enum import Enum
 
-class State(Enum):
-    INACTIVE=0
-    ACTIVE=1
+# class State(Enum):
+#     INACTIVE=0
+#     ACTIVE=1
 
-print(len(State))
+# print(len(State))
+
+#Lists
+
+cars = ["Honda", 25, True, 97.8]
+print("Roger" in cars)
+print(25 in cars)
 
 # python data types
 complex
