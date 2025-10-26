@@ -67,9 +67,28 @@ income = str(256.78)
 
 #Lists
 
-cars = ["Honda", 25, True, 97.8]
-print("Roger" in cars)
-print(25 in cars)
+#cars = ["Honda", 25, True, 97.8]
+# print("Roger" in cars)
+# cars.extend(["toyota", 53])
+# cars.remove("Honda")
+# cars[2:2]=["Jack",30,"corolla"]
+# print(cars)
+
+# ages=[25,7,90,33,21]
+# ages.sort()
+# print(ages)
+
+# names=["Jack", "David", "bob", "lucy", "karen"]
+# print(sorted(names,key=str.lower))
+# print(names)
+
+#Tuples
+year = ("2025", "2024", "2023")
+
+newYear= year + ("2026","2027")
+print(year)
+print(newYear)
+print(sorted(year))
 
 # python data types
 complex
