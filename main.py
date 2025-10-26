@@ -46,14 +46,24 @@ income = str(256.78)
 # check2 = all([True,False])
 # print(check2)
 
-#complex function
+# #complex function
 
-num1=2+3j
-num2=complex(2,3)
+# num1=2+3j
+# num2=complex(2,3)
 
-print(num1)
+# print(num1)
 
-print(num2.real,num2.imag)
+# print(num2.real,num2.imag)
+
+#Enums
+
+from enum import Enum
+
+class State(Enum):
+    INACTIVE=0
+    ACTIVE=1
+
+print(len(State))
 
 # python data types
 complex
