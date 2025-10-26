@@ -39,12 +39,21 @@ income = str(256.78)
 #using range
 # print(name[-4:-1])
 
-#any, all statements
-check = any([True,False])
-print(check)
+# #any, all statements
+# check = any([True,False])
+# print(check)
 
-check2 = all([True,False])
-print(check2)
+# check2 = all([True,False])
+# print(check2)
+
+#complex function
+
+num1=2+3j
+num2=complex(2,3)
+
+print(num1)
+
+print(num2.real,num2.imag)
 
 # python data types
 complex
